@@ -2,9 +2,9 @@ from asyncio import sleep
 from .. import loader, utils
 
 def register(cb):
-	cb(МозгоебкаMod())
+	cb(MozgoebkaMod())
 	
-class МозгоебкаMod(loader.Module):
+class MozgoebkaMod(loader.Module):
 	"""Заебет мозги любому""
 	strings = {'name': 'Мозгоебка'}
 	def __init__(self):
